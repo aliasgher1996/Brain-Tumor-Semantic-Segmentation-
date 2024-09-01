@@ -1,0 +1,4 @@
+In this notebook, we've covered the implementation of the U-Net architecture to train a model for segmenting brain tumors in MRIs. We found that the model achieved a Jaccard Index of ~0.73 and a Dice score of ~0.82 on the test set, which indicates that the model can produce decent quality segmentations, but there is room for improvement.
+
+We also discussed the model's capability to generate a diagnosis. We observed that the model achieved an error rate of ~3% for diagnosing normal and tumor cases correctly. This implies that for every 1000 MRI samples, we should expect +/- 30 incorrectly diagnosed samples. Also, we noticed that our model achieved a high Matthew's Correlation Coefficient (MCC) of approximately 93% when diagnosing MRI samples. This indicates that our model exhibits a strong understanding of how to diagnose samples and should be able to effectively diagnose unseen samples.
+
